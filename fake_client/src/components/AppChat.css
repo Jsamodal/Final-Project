@@ -1,0 +1,14 @@
+
+.text-white{
+color: rgb(189, 40, 40);
+}
+
+@font-face {
+  font-family: "My Custom Font";
+  src: url('../images/Anton-Regular.ttf') format("truetype");
+}
+
+@font-face {
+  font-family: "My Custom Fonts";
+  src: url('../images/Robinson\ Outline.ttf') format("truetype");
+}

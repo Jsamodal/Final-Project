@@ -1,0 +1,158 @@
+
+
+.mdwk-container{
+    
+    height:0px;
+    left: 0px;
+    z-index:20;
+    justify-content: center;
+    align-self: center;
+    position: absolute;
+    top:600px;
+    left:0px;
+   
+}
+
+
+
+.mdwk-title-container{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    bottom:0px;
+    z-index:1;
+    
+    position: relative;
+    
+    text-align: center;
+    
+}
+
+.mdwk-h2-1{
+   
+   font-size:30px;
+   
+   color:#F5A68E;
+   z-index:2;
+   font-family:"My Custom Font";
+   font-size:75px;
+   position:relative;
+   top:190px;
+   left:33px;
+
+}
+.mdwk-h2-2{
+  
+   font-size:75px;
+   color:#F5A68E;
+   z-index:2;
+   font-family:"My Custom Font";
+  position:relative;
+  right:20px;
+  bottom:43px;
+  
+
+
+}
+
+
+.mdwk-h6{
+    background: transparent;
+    font-family: "My Custom Font";
+    color:#ffff;
+    letter-spacing:10px;
+    font-size:30px;
+    position: relative;
+    bottom:150px;
+    left:72px;
+    z-index:2;
+    
+
+  
+}
+
+
+
+.mdwk-date:hover{
+    border: 20px solid #ffff;
+    background-color:#ffff;
+    color:#F5A68E;
+    transition: all 0.2s ease-out;
+    border-bottom-width:10px;
+    border-top-width:10px;
+    border-right-width:40px;
+    border-left-width:40px;
+
+    
+    
+}
+
+.mdwk-date{
+    border: 20px solid black;
+    background-color: black;
+    color:#F5A68E;
+    position: relative;
+    bottom:120px;
+    left:72px;
+    font-size:20px;
+    text-decoration:none;
+    font-family: "My Custom Font";
+    border-bottom-width:10px;
+    border-top-width:10px;
+    border-right-width:40px;
+    border-left-width:40px;
+
+}
+
+
+
+
+.VHS-2{
+    
+    height: 900px;
+    width:1200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    top: 0;
+    z-index:0;
+    display: grid;
+
+    list-style: none;
+    text-align: center;
+    justify-content: end;
+    margin: 2rem auto;
+    opacity:100%;
+    filter:sepia(10%)
+            contrast(90%)
+            grayscale(90%)
+            hue-rotate(360deg)
+            brightness(40%)
+
+        ;
+    
+    position: absolute;
+
+    z-index:0;
+    bottom:0px
+     
+}
+.video-container {
+    position: relative;
+
+    z-index:0;
+    bottom:600px;
+    
+
+}
+@font-face {
+    font-family: "My Custom Font";
+    src: url('../images/Anton-Regular.ttf') format("truetype");
+}
+
+@font-face {
+    font-family: "My Custom Fonts";
+    src: url('../images/Robinson\ Outline.ttf') format("truetype");
+}

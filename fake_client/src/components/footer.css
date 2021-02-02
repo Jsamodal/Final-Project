@@ -1,0 +1,107 @@
+.footer-container{
+    position: absolute;
+    display:flex;
+    flex-direction:row;
+    left:200px;
+}
+
+.stay-updated-container{
+    position:relative;
+    
+}
+
+.footer-title{
+    color:rgb(96, 92, 92);
+    font-size:10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing:0.3em;
+}
+.footer-links{
+    position:relative;
+    display:flex;
+    flex-direction:column;
+    top:30px;
+    
+}
+
+.facebook{
+    position: relative;
+    text-decoration:none;
+    color:#ffff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size:45px;
+    font-weight:100;
+}
+
+.facebook:hover{
+    color:rgb(53, 129, 244);
+}
+.instagram{
+    position: relative;
+    text-decoration:none;
+    color:#ffff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size:45px;
+    font-weight:100;
+    top:30px;
+}
+.instagram:hover{
+    color:rgb(242, 152, 231);
+}
+
+.youtube{
+    position: relative;
+    text-decoration:none;
+    color:#ffff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size:45px;
+    font-weight:100;
+    top:60px;
+}
+.youtube:hover{
+    color:rgb(247, 84, 84);
+}
+
+.contact-us-container{
+    position: relative;
+    display:flex;
+    flex-direction:column;
+    left:300px;
+}
+
+.footer-title{
+    color:rgb(96, 92, 92);
+    font-size:10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing:0.3em;
+}
+
+.contact-title{
+    position: relative;
+    color:rgb(96, 92, 92);
+    font-size:10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing:0.3em;
+    top:4px;
+}
+
+.email{
+    position: relative;
+    text-decoration:none;
+    color:#ffff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size:20px;
+    top:60px;
+}
+
+
+
+@font-face {
+    font-family: "My Custom Font";
+    src: url('../images/Anton-Regular.ttf') format("truetype");
+}
+
+@font-face {
+    font-family: "My Custom Fonts";
+    src: url('../images/Robinson\ Outline.ttf') format("truetype");
+}

@@ -1,0 +1,301 @@
+.locations-container{
+    background:#000000;
+    display:flex;
+    position: absolute;
+    height:2300px;
+    width:1200px;
+   
+}
+
+.locations-header{
+    position: relative;
+    align-content: center;
+    justify-content:center;
+    flex-direction: column;
+    bottom:0px;
+}
+
+.locations-jpg{
+    position: relative;
+    width:1200px;
+    height:300px;
+    object-fit:cover;
+    
+}
+
+.locations-title{
+    font-family: "My Custom Fonts";
+    color:#b8b7b7;
+    font-size:200px;
+    font-weight:100;
+    position: relative;
+    left:200px;
+    bottom:250px;
+}
+
+.locations-card{
+    display:flex;
+    position: relative;
+    flex-direction: column;
+    align-items:center;
+    bottom:200px;
+    right:620px;
+
+}
+
+.Burnaby{
+    display:flex;
+    position: absolute;
+    bottom:1000px;
+    z-index:0;
+
+}
+.Surrey{
+    display:flex;
+    position: absolute;
+    bottom:560px;
+    z-index:0;
+}
+.Vancouver{
+    display:flex;
+    position: absolute;
+    top:460px;
+    z-index:0;
+}
+
+.locations-pic{
+    position: relative;
+    height:400px;
+    width:300px;
+    object-fit:cover;
+}
+.info{
+    position: relative;
+    background:#ffff;
+    height:400px;
+    width:500px;
+    display:flex;
+    
+}
+
+.partner{
+    font-family: "My Custom Font";
+    color:black;
+    background-color:#ffff;
+    font-size:12px;
+    font-weight:100px;
+    text-decoration:none;
+    outline: 1px solid black;
+    outline-offset:10px;
+}
+.watch{
+    font-family: "My Custom Font";
+    color:black;
+    background-color:#ffff;
+    font-size:12px;
+    font-weight:100px;
+    text-decoration:none;
+    outline: 1px solid black;
+    outline-offset:10px;
+    position: relative;
+    left:40px;
+    top:10px;
+}
+.connect{
+    font-family: "My Custom Font";
+    color:black;
+    background-color:#ffff;
+    font-size:12px;
+    font-weight:100px;
+    text-decoration:none;
+    outline: 1px solid black;
+    outline-offset:10px;
+}
+
+.h2-titles{
+    font-family: "My Custom Font";
+    font-weight:100;
+}
+
+.h3-text{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size:12px;
+}
+
+.address{
+    position: relative;
+    left:60px;
+}
+
+.times{
+    position: relative;
+    left:90px;
+}
+
+.giving{
+    position:relative;
+    top:270px;
+    right:40px;
+}
+
+.CG{
+    display: flex;
+    flex-direction:column;
+    position:relative;
+    align-items:center;
+    align-content:center;
+    justify-items:center;
+    top:270px;
+    right:88px;
+}
+
+.campus-name{
+    position: relative;
+    align-items:center;
+    align-content:center;
+    justify-items:center;
+    color:#ffff;
+    font-family: "My Custom Font";
+
+
+}
+
+.burnaby-campus-location{
+    position: relative;
+    font-size:45px;
+    bottom:300px;
+    left:70px;
+    z-index:3px;
+}
+
+.surrey-campus-location{
+    position: relative;
+    font-size:45px;
+    bottom:300px;
+    left:90px;
+    z-index:3px;
+}
+
+.vancouver-campus-location{
+    position: relative;
+    font-size:45px;
+    bottom:300px;
+    left:55px;
+    z-index:3px;
+}
+
+.burnaby-campus-type{
+    position: relative;
+    font-family: "My Custom Font";
+    font-size:12px;
+    z-index:2px;
+    bottom:350px;
+    left:87px;
+    letter-spacing:0.2em;
+}
+.surrey-campus-type{
+    position: relative;
+    font-family: "My Custom Font";
+    font-size:12px;
+    z-index:2px;
+    bottom:350px;
+    left:96px;
+    letter-spacing:0.2em;
+}
+.vancouver-campus-type{
+    position: relative;
+    font-family: "My Custom Font";
+    font-size:12px;
+    z-index:2px;
+    bottom:350px;
+    left:91px;
+    letter-spacing:0.2em;
+}
+
+.chat-container{
+    position:relative;
+    display:flex;
+    flex-direction:column;
+    z-index:4;
+    bottom:240px;
+    left:10px;
+}
+
+.chat-type{
+    position: relative;
+    font-family: "My Custom Font";
+    font-size:12px;
+}
+.burnaby-chat-link{
+    position: relative;
+    color:#ffff;
+    text-decoration:none;
+    font-family: "My Custom Font";
+    letter-spacing:0.1em;
+    bottom:22px;
+    left:135px;
+    
+}
+
+.burnaby-chat-link:hover{
+    position: relative;
+    color:#c7f4f3c4;
+    text-decoration:none;
+    font-family: "My Custom Font";
+    
+}
+
+.surrey-chat-link{
+    position: relative;
+    color:#ffff;
+    text-decoration:none;
+    font-family: "My Custom Font";
+    letter-spacing:0.1em;
+    bottom:22px;
+    left:135px;
+    
+}
+.surrey-chat-link:hover{
+    position: relative;
+    color:rgba(7, 206, 203, 0.543);
+    text-decoration:none;
+    font-family: "My Custom Font";
+    
+}
+
+.vancouver-chat-link{
+    position: relative;
+    color:#ffff;
+    text-decoration:none;
+    font-family: "My Custom Font";
+    letter-spacing:0.1em;
+    bottom:22px;
+    left:135px;
+    
+}
+
+.vancouver-chat-link:hover{
+    position: relative;
+    color:rgb(120, 107, 88);
+    text-decoration:none;
+    font-family: "My Custom Font";
+    
+}
+
+.location-footer{
+    position: absolute;
+    top:1900px;
+}
+
+
+@font-face {
+    font-family: "My Custom Font";
+    src: url('../images/Anton-Regular.ttf') format("truetype");
+}
+
+@font-face {
+    font-family: "My Custom Fonts";
+    src: url('../images/Robinson\ Outline.ttf') format("truetype");
+}
+
+
